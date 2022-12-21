@@ -46,7 +46,7 @@ body {
     font-family: var(--ff-Frau);
     font-weight: var(--fw-700);
     color: var(--clr-neutral-darkblue);
-    line-height: 1.1;
+    line-height: 1;
     font-size: 2rem;
     margin-bottom: 1.063rem;
 }
@@ -79,7 +79,7 @@ button {
     justify-content: center;
     gap: 10px;
     cursor: pointer;
-    padding: .75rem .625rem;
+    padding: .95rem .7rem;
     background-color: var(--clr-primary-cyan);
     border: none;
     border-radius: 8px;
@@ -125,6 +125,6 @@ button:is(:hover, :focus) {
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        padding: .313rem .625rem;
+        padding: .65rem;
     }
 }
