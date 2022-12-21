@@ -19,7 +19,7 @@ body {
     display: grid;
     place-content: center;
     background-color: var(--clr-primary-cream);
-    font-size: 14px;
+    font-size: 0.875rem;
     margin: 0 15px;
 }
 .container {
@@ -37,7 +37,7 @@ body {
     font-family: var(--ff-Mont);
     font-weight: var(--fw-500);
     letter-spacing: 5px;
-    font-size: 12px;
+    font-size: 0.75rem;
     text-transform: uppercase;
     color: var(--clr-neutral-grayishblue);
     margin-bottom: 10px;
@@ -47,7 +47,7 @@ body {
     font-weight: var(--fw-700);
     color: var(--clr-neutral-darkblue);
     line-height: 1.1;
-    font-size: 32px;
+    font-size: 2rem;
     margin-bottom: 17px;
 }
 .product__description {
@@ -65,13 +65,13 @@ body {
     color: var(--clr-primary-cyan);
     font-weight: var(--fw-700);
     font-family: var(--ff-Frau);
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 .old__price {
     text-decoration: line-through;
     color: var(--clr-neutral-grayishblue);
     font-family: var(--ff-Mont);
-    font-size: 13px;
+    font-size: 0.813rem;
     align-self: center;
 }
 button {
