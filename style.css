@@ -20,7 +20,7 @@ body {
     place-content: center;
     background-color: var(--clr-primary-cream);
     font-size: 0.875rem;
-    margin: 0 15px;
+    margin: 0 0.938rem;
 }
 .container {
     background-color: var(--clr-neutral-white);
@@ -31,16 +31,16 @@ body {
 } 
 .product__content {
     display: grid;
-    padding: 23px;
+    padding: 1.438rem;
 }
 .product__category {
     font-family: var(--ff-Mont);
     font-weight: var(--fw-500);
     letter-spacing: 5px;
-    font-size: 0.75rem;
+    font-size: .75rem;
     text-transform: uppercase;
     color: var(--clr-neutral-grayishblue);
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
 }
 .product__title {
     font-family: var(--ff-Frau);
@@ -48,18 +48,18 @@ body {
     color: var(--clr-neutral-darkblue);
     line-height: 1.1;
     font-size: 2rem;
-    margin-bottom: 17px;
+    margin-bottom: 1.063rem;
 }
 .product__description {
     color: var(--clr-neutral-grayishblue);
     font-weight: var(--fw-500);
     font-family: var(--ff-Mont);
-    margin-bottom: 15px;
+    margin-bottom: .938rem;
 }
 .product__prices {
     display: inline-flex;
     gap: 20px;
-    margin-bottom: 15px;
+    margin-bottom: .938rem;
 }
 .current__price {
     color: var(--clr-primary-cyan);
@@ -79,7 +79,7 @@ button {
     justify-content: center;
     gap: 10px;
     cursor: pointer;
-    padding: 12px 10px;
+    padding: .75rem .625rem;
     background-color: var(--clr-primary-cyan);
     border: none;
     border-radius: 8px;
@@ -89,7 +89,7 @@ button {
 }
 button[data-icon="shopping-cart"]::before {
     content: "";
-    width: 15px;
+    width: .938rem;
     height: 16px;
     background-image: url(images/icon-cart.svg);
     align-self: center;
@@ -100,12 +100,12 @@ button:is(:hover, :focus) {
 
 @media (min-width: 380px) {
     .container {
-        display: inline-flex;
-        height: 480px;
+        display: flex;
+        height: auto;
     }
     .product__content {
         width: 50%;
-        padding: 30px;
+        padding: 1.875rem;
     }
     .product__imgage {
         width: 50%;
@@ -125,6 +125,6 @@ button:is(:hover, :focus) {
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        padding: 5px 10px;
+        padding: .313rem .625rem;
     }
 }
