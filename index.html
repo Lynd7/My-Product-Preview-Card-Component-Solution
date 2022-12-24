@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--My CSSS-->
+    <!--My CSS-->
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <!--Google Fonts-->
@@ -18,29 +18,32 @@
   <body>
     <main>
       <div class="container">
-        <picture class="product__imgage">
+        <picture class="card__imgage">
           <source
             srcset="images/image-product-desktop.jpg"
-            aria-hidden="true"
-            alt=""
+            alt="Perfume Chanel Paris 5 Image for desktop"
             media="(min-width:380px)"
           />
           <img
             src="images/image-product-mobile.jpg"
-            aria-hidden="true"
-            alt=""
+            alt="Perfume Chanel Paris 5 Image for mobile"
           />
         </picture>
-        <div class="product__content">
-          <p class="product__category">Perfume</p>
-          <h1 class="product__title">Gabrielle Essence Eau De Parfum</h1>
-          <p class="product__description">
+        <div class="card__content">
+          <p class="card__category">Perfume</p>
+          <h1 class="card__title">Gabrielle Essence Eau De Parfum</h1>
+          <p class="card__description">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
-          <div class="product__prices">
-            <p class="current__price">$149.99</p>
-            <p class="old__price">$169.99</p>
+          <div class="card__prices">
+            <p class="current__price">
+              <span class="visually-hidden">Current Price:</span> $149.99
+            </p>
+            <p class="old__price">
+              <span class="visually-hidden">Original Price:</span>
+              <s>$169.99</s>
+            </p>
           </div>
           <button data-icon="shopping-cart">Add to Cart</button>
         </div>
